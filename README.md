@@ -28,3 +28,16 @@ And for implementing a linear hashing map, we will refer to some codes on github
 https://github.com/pavlosdais/Abstract-Data-Types/tree/main/modules/HashTable/LinearHashing#readme
 
 ### Goals and deliverables:
+Our first goal will be achieveing a usable lock-free linear hashing table, which can be accessed by multiple processors performing read and write to the table without waiting. We would also like to compare the performance of using a lock-free vs lock-used hash table, and how different parallel interfaces can achieve an increase of performance.
+In the final presentation we will demo the usage of such a hash table, and show the speedup achieved by using different number of processors and different parallel interfaces.
+
+### Platform Choice:
+We will use C++ to write the code, and will use ghc machine for parallel interfaces.
+
+### Schedule:
+Nov 9 - 13: implementing a linear hashing table
+Nov 14 - 20: implementing a parallel linear hashing table using coarse-grained lock & fine-grained lock using openmpi
+Nov 21 - 27: finish implementing lock-used parallel linear hashing table and start on lock-free design
+Nov 28 - Dec 5: implementing lock-free linear hashing table
+Dec 6 - 11: trying lock-free linear hashing table in simple scenarios
+Dec 12 - 18: Finalize presentation
