@@ -36,8 +36,13 @@ We will use C++ to write the code, and will use ghc machine for parallel interfa
 
 ### Schedule:
 Nov 9 - 13: implementing a linear hashing table
+
 Nov 14 - 20: implementing a parallel linear hashing table using coarse-grained lock & fine-grained lock using openmpi
+
 Nov 21 - 27: finish implementing lock-used parallel linear hashing table and start on lock-free design
+
 Nov 28 - Dec 5: implementing lock-free linear hashing table
+
 Dec 6 - 11: trying lock-free linear hashing table in simple scenarios
+
 Dec 12 - 18: Finalize presentation
