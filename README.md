@@ -2,7 +2,7 @@
 ##### Yizhen Wu, Jiaqi Dong     Andrew ID: yizhenw, jiaqidon
 
 ### URL: 
-https://github.com/Alicewyz/parallel-linear-hashing.git
+https://alicewyz.github.io/parallel-linear-hashing/
 
 ### Summary: 
 We are going to implement a parallel lock-free linear hashing table and analyze performance using different parallel interfaces such as OpenMP, MPI or SIMD.
