@@ -5,7 +5,7 @@
 ### URL: 
 https://alicewyz.github.io/parallel-linear-hashing/
 
-MileStone Report: https://alicewyz.github.io/parallel-linear-hashing/project%20milestone%20report.pdf
+MileStone Report: https://alicewyz.github.io/parallel-linear-hashing/milestone/project%20milestone%20report.pdf
 
 ### Summary: 
 We are going to implement a lock-free dynamic hash table using linear hashing algorithm and analyze performance using different parallel interfaces such as OpenMP, MPI or SIMD. We will compare lock-free version of our algorithm against fine-grained and coarse-grained lock-based versions.
