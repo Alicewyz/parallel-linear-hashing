@@ -48,9 +48,9 @@ In the final presentation we will demo the usage of such a hash table, and show 
 We will use C++ to write the code, and will use ghc machine for parallel interfaces.
 
 ### Schedule:
-- Nov 9 - 13: implementing basic linear hashing algorithm
-- Nov 14 - 20: implementing a parallel linear hashing algorithm using coarse-grained lock & fine-grained lock
-- Nov 21 - 27: finish implementing lock-based linear hashing table and start on lock-free design
-- Nov 28 - Dec 5: implementing lock-free linear hashing table
+- Nov 9 - 13: implementing basic linear hashing algorithm (finished)
+- Nov 14 - 20: implementing a parallel linear hashing algorithm using coarse-grained lock (finished)
+- Nov 21 - 27: implementing fine-grained lock (on-going)
+- Nov 28 - Dec 5: finish implementing lock-free linear hashing table
 - Dec 6 - 12: Develop extensive test cases to ensure correctness
 - Dec 13 - 18: Finalize presentation
