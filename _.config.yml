@@ -3,3 +3,4 @@ relative_links:
   collections: true
 include:
   - README.md
+  - project milestone report.pdf
