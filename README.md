@@ -50,7 +50,7 @@ We will use C++ to write the code, and will use ghc machine for parallel interfa
 ### Schedule:
 - Nov 9 - 13: implementing basic linear hashing algorithm (finished)
 - Nov 14 - 20: implementing a parallel linear hashing algorithm using coarse-grained lock (finished)
-- Nov 21 - 27: implementing fine-grained lock (on-going)
+- Nov 21 - 27: implementing fine-grained lock (finished)
 - Nov 28 - Dec 5: finish implementing lock-free linear hashing table
 - Dec 6 - 12: Develop extensive test cases to ensure correctness
 - Dec 13 - 18: Finalize presentation
