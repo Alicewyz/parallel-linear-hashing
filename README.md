@@ -8,7 +8,7 @@ https://alicewyz.github.io/parallel-linear-hashing/
 MileStone Report: https://alicewyz.github.io/parallel-linear-hashing/milestone/project%20milestone%20report.pdf
 
 ### Summary: 
-We are going to implement a lock-free dynamic hash table using linear hashing algorithm and analyze performance using different parallel interfaces such as OpenMP, MPI or SIMD. We will compare lock-free version of our algorithm against fine-grained and coarse-grained lock-based versions.
+We are going to implement a lock-free dynamic hash table using linear hashing algorithm and analyze performance comparing with fine grained and coarse grained linear hashing. We will compare lock-free version of our algorithm against fine-grained and coarse-grained lock-based versions.
 
 ### Background:
 Linear hashing is a dynamic data structure which implements a hash table that grows or shrinks as keys are inserted or deleted. Keys are placed into fixed-size buckets and a bucket can be redistributed when overflow occurs.
